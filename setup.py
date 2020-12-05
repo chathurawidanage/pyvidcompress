@@ -27,6 +27,7 @@ setuptools.setup(
         'opencv-python',
         'matplotlib',
         'tensorly',
-        'torch'
+        'torch',
+        'scikit-video'
     ],
 )
