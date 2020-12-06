@@ -8,7 +8,7 @@ print(setuptools.find_packages())
 
 setuptools.setup(
     name='pyvidcompress',
-    version='0.0.2',
+    version='0.0.3',
     author="Dimuthu Upeksha, Chathura Widanage",
     author_email="dimuthu.upeksha2@gmail.com, chathurawidanage@gmail.com",
     description="Tensor decomposition based video compression library for CPUs and GPUs",
