@@ -7,7 +7,7 @@ rm pyvidcompress.egg-info -R
 python3 setup.py bdist_wheel
 
 # Installing Locally
-python3 -m pip install dist/pyvidcompress-0.0.3-py3-none-any.whl --user --upgrade
+python3 -m pip install dist/pyvidcompress-0.0.4-py3-none-any.whl --user --upgrade
 #pip3 install dist/pyvidcompress-0.0.3-py3-none-any.whl --user
 
 # Uploading to PIP
