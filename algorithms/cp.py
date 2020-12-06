@@ -26,7 +26,7 @@ class CPEncoder(Encoder):
         if not self.config.has("rank"):
             raise Exception("Property `rank` should be set to the config")
         tensor = tl.tensor(tensor.astype(float), device=self.config.device)
-        factors = parafac(tensor, ranks=self.config.get("rank"))
+        factors = parafac(tensor, rank=self.config.get("rank"))
         return CPTdv(factors)
 
 
